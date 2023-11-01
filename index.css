@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+    
+}
+
+
+.angry-grid {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+    
+    
+ }
+
+#item-0 {
+
+    background-color: orange; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 6;
+    height: 33.3vh;
+    
+    
+ }
+ #countdown {
+ 
+    background-color: #fff; 
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 6;
+    text-align: center;
+    height: 33.33vh;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    text-shadow: 2px 2px 8px black;
+    
+ }
+ #item-2 {
+ 
+    background-color: green;
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 6;
+    height: 33.3vh;
+    
+    
+ }
+
+
+
+
+
+    
+    
+ 
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
